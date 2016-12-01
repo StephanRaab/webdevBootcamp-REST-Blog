@@ -1,0 +1,25 @@
+{
+  "name": "restful-blog",
+  "version": "1.0.0",
+  "description": "webdev bootcamp restful route blog application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StephanRaab/webdevBootcamp-REST-Blog.git"
+  },
+  "author": "b3l914n",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephanRaab/webdevBootcamp-REST-Blog/issues"
+  },
+  "homepage": "https://github.com/StephanRaab/webdevBootcamp-REST-Blog#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.3",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.0"
+  }
+}
