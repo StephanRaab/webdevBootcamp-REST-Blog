@@ -15,3 +15,19 @@
 + Add NEW template
 + Add CREATE route
 + Add CREATE template
+
+#December 3rd
+### AngularJS meetup
+### SHOW Route
+### SHOWtime
++ Add show route
++ Add show template
++ Add links to show page
++ Style show template
+
+### Edit/Update
++ Add EDIT route
++ Add Edit form
++ Add UPDATE route
++ Add update form
++ Add method override
