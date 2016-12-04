@@ -35,3 +35,20 @@
 ### DESTROY
 + Add destroy route
 + Add edit and destroy links
+
+#December 4th
+### Restful Blog Final Updates
++ Sanitize Blog body
++ Style Index
++ Update REST Table
+
+Name|Path|HTTP Verb|Purpose|Mongoose Method
+:---|:---|:---|:---|:---|
+Index|/blogs|GET|List all blogs|Blog.find()
+New| /blogs/new|GET|Show new blog form|N/A
+Create|/blogs|POST|Create new blog, then redirect somewhere|Blog.create()
+Show| /blogs/:id|GET|Show info about one specific blog|Blog.findById()
+Edit|/blogs/:id/edit|GET|Show edit form one blog|Blog.findById()
+Update|/blogs/:id/edit|PUT|Update particular blog, then redirect somewhere|Blog.findByIdAndUpdate()
+Destroy|/blogs/id|DELETE|Delete a particular blog, then redirect somewhere|Blog.findByIdAndRemove()
+
