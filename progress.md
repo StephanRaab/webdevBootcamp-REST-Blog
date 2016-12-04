@@ -31,3 +31,7 @@
 + Add UPDATE route
 + Add update form
 + Add method override
+
+### DESTROY
++ Add destroy route
++ Add edit and destroy links
